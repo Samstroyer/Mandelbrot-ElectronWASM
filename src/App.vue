@@ -1,17 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>HELLO</h1>
+  <!-- <canvas class=emscripten id=canvas oncontextmenu=event.preventDefault() tabindex=-1></canvas> -->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// fetch("./project_files/game.wasm")
+//   .then((response) => response.arrayBuffer())
+//   .then((bytes) => WebAssembly.instantiate(bytes, importObject))
+//   .then((results) => {
+//     // Do something with the results!
+//   });
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
 </script>
 
 <style>
